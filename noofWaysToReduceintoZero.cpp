@@ -6,7 +6,7 @@ public:
     }
     int rec(int num,int count)
     {
-        if(num==0)
+        if(num==0) //Base condition as we known we need to stop when we reach the 0th step
             return count;
         if(num%2==0){
             return rec(num/2,count+1);}
