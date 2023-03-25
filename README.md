@@ -4,3 +4,4 @@
 3. ClimbStairs
 4.Sum of the elements in an array
 5. Linear Search
+6.Binary Search
