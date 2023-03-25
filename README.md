@@ -3,3 +3,4 @@
 2. Subset sum
 3. ClimbStairs
 4.Sum of the elements in an array
+5. Linear Search
