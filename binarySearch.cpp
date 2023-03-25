@@ -4,9 +4,13 @@ using namespace std;
 int binarySearch(int arr[],int s,int e,int target)
 {
     int mid = s+(e-s)/2;
-    if(s>e)
+    if(s>e) // base case
     {
         return -1;
+    }
+    if(arr[mid]==target)
+    {
+        return mid;
     }
    if(arr[mid]>target)
         return binarySearch(arr,s,mid-1,target);
